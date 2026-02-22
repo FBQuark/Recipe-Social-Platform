@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+/* Ensure the root elements span the full page */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  height: 100vh; /* Viewport height */
+  width: 100vw; /* Viewport width */
+  background-color: black; /* Black background */
+  display: flex; /* Optional: Use flexbox for centering content */
+  justify-content: center; /* Optional: Horizontally center content */
+  align-items: center; /* Optional: Vertically center content */
+  color: white; /* Optional: Text color for contrast */
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.signupContainer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10%;
+}
+
+.navbar-search {
+  display: flex;
+  width: 1000px;
+}
+
+.navbar-home {
+  margin-left: 15px;
+}
+
+.navbar-profile {
+  margin-right: 15px;
+}
+
+.dropdown {
+  position: relative;
+  overflow: visible;
+}
+
+.dropdown-menu {
+  z-index: 1050;
+  position: absolute;
+  left: 0;
+  right: auto;
+}
+
+.postRecipeBanner {
+  display: flex;
+  justify-content: end;
+  margin: 5px 5px 0px 0px;
+}
+
+.postRecipeButton {
+  outline-style: auto;
+  outline-color: grey;
+  outline-width: 1px;
+}

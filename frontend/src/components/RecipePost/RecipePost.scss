@@ -1,0 +1,63 @@
+.recipe-post-container {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    height: 250px;
+    gap: 10px;
+    width: 600px;
+
+    img {
+        border-radius: 50%;
+        margin: 0 0px;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        font-size: 16px;
+
+        &:hover {
+            color: gray;
+        }
+    }
+    .info-container {
+        display: flex;
+        width: 250px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .save-button {
+        font-size: 30px;
+        margin-right: 10px;
+        &:hover {
+            background-color: #e0e0e0;
+            cursor: pointer;
+        }
+    }
+
+    .recipe-number {
+        font-size: 20px;
+        margin-left: 5px; 
+        color: #4CAF50;
+        align-self: center; 
+    }
+    
+    .verified-badge {
+        font-size: 30px;
+    }
+
+    .action-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 125px;
+        margin-right: 25px;
+    }
+}

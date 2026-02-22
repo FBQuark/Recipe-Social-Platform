@@ -1,0 +1,27 @@
+.recipe-report-container {
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 600px;
+    margin: auto;
+    width: 750px;
+
+    text-area {
+        width: 100%;
+        height: 200px;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

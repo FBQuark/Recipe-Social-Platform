@@ -1,0 +1,12 @@
+.home-container {
+    height: 100vh;
+
+    .recipe-posts-container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        margin: 20px 0;
+    }
+}
