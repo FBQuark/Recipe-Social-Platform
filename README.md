@@ -14,10 +14,12 @@ This does not have a public site in which you can access it, the entire site was
 # Installation
 
 1. Clone or download this repository.
-2. install all required functionality in your IDE (i used VSCode)
+2. install all required functionality in your IDE (i used VSCode).
 3. Create your own mongoDB server and refactor the backend to include your new server settings and keys.
 
 if you have any questions on how to get it running i can help you please email me at domfontana04@gmail.com
+
+for privacy reasons, the other participants in this project would like to remain anonymous.
 
 
 
